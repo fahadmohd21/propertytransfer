@@ -27,4 +27,7 @@ contract Propertytransfer{<br>
             return (
                 properties[_id].name,properties[_id].owner,properties[_id].area,properties[_id].value); <br>
                 }<br>
-         }<br>
+                 function transfer (uint8 _id, address _newOwner) public { <br>
+                    properties[_id].owner=_newOwner; <br>
+                } <br>
+         }
