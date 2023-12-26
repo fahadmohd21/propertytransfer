@@ -1,5 +1,6 @@
 # propertytransfer
 // SPDX-License-Identifier: MIT
+<br>
  pragma solidity ^ 0.8.0;
 contract Propertytransfer{
     struct Property{
